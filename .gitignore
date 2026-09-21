@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+.env.local
+
+# dbt local configuration
+cdc_marketing/profiles.yml
+
+# dbt generated files
+cdc_marketing/target/
+cdc_marketing/logs/
+cdc_marketing/dbt_packages/
+
+# Project logs
+logs/
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Misc
+.DS_Store
+cdc_marketing/.user.yml cdc_marketing/.user.yml
+cdc_marketing/.user.yml
